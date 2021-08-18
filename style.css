@@ -1,0 +1,59 @@
+.main {
+    height: 100vh;
+    background-color: #DDA0DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-box {
+    width: 200px;
+    height: 390px;
+    border: 4px solid #F8F8FF;
+}
+
+.out {
+    background: white;
+    height: 150px;
+    border: 1px solid #F8F8FF;
+}
+
+.out-operation {
+    height: 75px;
+    border-bottom: 1px solid  grey;
+}
+
+.out-current {
+    height: 75px;
+    color: black;
+
+}
+
+.buttons-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    background: burlywood;
+}
+
+button {
+    background: none;
+    width: 50px;
+    height: 40px;
+    border: 3px solid #F8F8FF;
+}
+
+button:hover {
+    background-color: #a3a2a2;
+}
+
+button:active {
+    background-color: #706f6f;
+}
+
+.active {
+    background-color: khaki;
+}
